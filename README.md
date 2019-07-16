@@ -1,9 +1,12 @@
 # GitHub Classroom Guide for Students
 
-This is a guide for students to setup Git and GitHub for use with GitHub Classroom. We use RStudio in our class, so we will give instructions on how to use RStudio to setup Git locally. However, this is not necessary.
+This is a guide for students to setup Git and GitHub for use with GitHub Classroom. We use RStudio in our class, so we will give instructions on how to use RStudio to setup Git locally. 
+<!-- However, this is not necessary. -->
+
+**MCW Note:** These instructions were originally generated Jacob Fiksel (@jfiksel), so many of the images and examples will refer to his course. I've made some minor changes (check the commit log), but for the most part following these instructions will get you setup with GitHub and RStudio for use in our ODU CS 625 course. And mainly, where you see 'advanced-biostatistics-lab-fall-2017', just replace that with 'cs625-fall-2019'.
 
 ### Steps for getting setup with GitHub
-1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager)
+1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, weiglemc)
 
 2. Download RStudio (https://www.rstudio.com/) and R (https://cran.r-project.org/)
 
@@ -35,7 +38,8 @@ Below we make a repository and copy the link so that we can get the repository o
 
 ### Steps for downloading and editing assignments from GitHub Classroom
 
-1. Have a folder specifically for your class (call it something like classroom-fall-2017). Within this folder, I would recommend a folder titled lectures (this can be pulled from the organization--we will show you how to do this), as well a folder title homework.
+1. Have a folder specifically for your class (call it something like cs625-fall-2019). Within this folder, I would recommend a folder titled lectures (this can be pulled from the organization--we will show you how to do this), as well a folder titled homework. 
+*(MCW: For CS 625, you probably do not need a 'lectures' folder.)*
 
 Note you can do this as you normally would with pointing and clicking, but you can also use the shell! This is good practice if you want to use Git outside of the class, as you normally have to use the Shell to interact with Git. Sean Kross has a great guide for using the shell here--http://seankross.com/the-unix-workbench/. However, I'll show you the basic steps you need.
 
@@ -73,7 +77,7 @@ And here is what the process of creating these directories looks like from the t
 
 ![Alt Text](http://g.recordit.co/6o0kNx4Lpv.gif)
 
-2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page. Here is an image of what you should see after clicking the link:
+2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment. Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page. Here is an image of what you should see after clicking the link:
 
 ![Alt Text](img/accept-assignment.png)
 
