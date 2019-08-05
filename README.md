@@ -3,7 +3,7 @@
 This is a guide for students to setup Git and GitHub for use with GitHub Classroom. We use RStudio in our class, so we will give instructions on how to use RStudio to setup Git locally. 
 <!-- However, this is not necessary. -->
 
-**MCW Note:** These instructions were originally generated Jacob Fiksel (@jfiksel), so many of the images and examples will refer to his course. I've made some minor changes (check the commit log), but for the most part following these instructions will get you setup with GitHub and RStudio for use in our ODU CS 625 course. And mainly, where you see 'advanced-biostatistics-lab-fall-2017', just replace that with 'cs625-fall-2019'.
+**MCW Note:** These instructions were originally generated Jacob Fiksel (@jfiksel), so many of the images and examples will refer to his course. I've made some minor changes, but for the most part following these instructions will get you setup with GitHub and RStudio for use in our ODU CS 625 course. Mainly where you see *advanced-biostatistics-lab-fall-2017*, just replace that with *cs625-fall-2019*.
 
 ### Steps for getting setup with GitHub
 1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, weiglemc)
@@ -14,7 +14,7 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 ![Alt Text](http://g.recordit.co/ENAZXCmgs9.gif)
 
-4. Setup options in Git. In you have a Mac, open up the shell in R Studio by clicking Tools -> Shell. If you don't want to enter RStudio, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) as shown above. If you have a Windows, open Git BASH, which you should have downloaded in step 3. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should read section 8.1 in the above link carefully. Below is an example of what this process looks like on a Mac:
+4. Setup options in Git. In you have a Mac, open up the shell in RStudio by clicking Tools -> Shell. If you don't want to enter RStudio, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) as shown above. If you have a Windows, open Git BASH, which you should have downloaded in step 3. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should read section 8.1 in the above link carefully. Below is an example of what this process looks like on a Mac:
 
 ![Alt Text](http://g.recordit.co/ibUp6dYimU.gif)
 
@@ -38,12 +38,11 @@ Below we make a repository and copy the link so that we can get the repository o
 
 ### Steps for downloading and editing assignments from GitHub Classroom
 
-1. Have a folder specifically for your class (call it something like cs625-fall-2019). Within this folder, I would recommend a folder titled lectures (this can be pulled from the organization--we will show you how to do this), as well a folder titled homework. 
-*(MCW: For CS 625, you probably do not need a 'lectures' folder.)*
+1. Have a folder specifically for your class (call it something like cs625-fall-2019). Within this folder, I would recommend a folder  homework. 
 
-Note you can do this as you normally would with pointing and clicking, but you can also use the shell! This is good practice if you want to use Git outside of the class, as you normally have to use the Shell to interact with Git. Sean Kross has a great guide for using the shell here--http://seankross.com/the-unix-workbench/. However, I'll show you the basic steps you need.
+Note you can do this as you normally would with pointing and clicking, but you can also use the shell! This is good practice if you want to use Git outside of the class, as you normally have to use the shell to interact with Git. Sean Kross has a great guide for using the shell at http://seankross.com/the-unix-workbench/. However, I'll show you the basic steps you need.
 
- One thing that the shell does is allow you to navigate through all of your files by typing commands, rather than using your mouse. When you open up the shell, you can type `PWD`. This tells you the directory (folder) that you are in. You can also type `ls`. This lists the directories available to you. For example when I type `PWD`, the result is `/Users/jfiksel`. This tells me that I am in my own directory inside of my computer. When I type `ls`, I see directories such as Applications, Documents, etc... I can also enter into a directory using the `cd` command. If I type `cd Documents`, then I am now inside of the Documents directory. When I type `PWD`, the result is now `/Users/jfiksel/Documents`. I can go back to `/Users/jfiksel` by typing `cd ..`.
+One thing that the shell does is allow you to navigate through all of your files by typing commands, rather than using your mouse. When you open up the shell, you can type `PWD`. This tells you the directory (folder) that you are in. You can also type `ls`. This lists the directories available to you. For example when I type `PWD`, the result is `/Users/jfiksel`. This tells me that I am in my own directory inside of my computer. When I type `ls`, I see directories such as Applications, Documents, etc. I can also enter into a directory using the `cd` command. If I type `cd Documents`, then I am now inside of the Documents directory. When I type `PWD`, the result is now `/Users/jfiksel/Documents`. I can go back to `/Users/jfiksel` by typing `cd ..`.
 
  ![Alt Text](http://g.recordit.co/w5rRPbRiVB.gif)
 
@@ -83,19 +82,19 @@ And here is what the process of creating these directories looks like from the t
 
 3. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”, and make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard.
 
-4.  In RStudio, go to File -> New Project. Click Version Control, then Git. Paste the link you just copied into the Repository URL box. Leave the Project directory name blank. Create this as a subdirectory of your homeworks folder. An RStudio project should now open up, which will allow you to start working on your homework assignment. You will probably see a blank console screen. However, in RStudio you should also see a list of all of the files available. Click on whatever file you want to edit (probably the .Rmd file) and edit away. If you save and close R Studio and want to go back to editing your project, open up R Studio, then go to File -> Open Project. Navigate to the project directory and double click on the .Rproj file.
+4.  In RStudio, go to File -> New Project. Click Version Control, then Git. Paste the link you just copied into the Repository URL box. Leave the Project directory name blank. Create this as a subdirectory of your homeworks folder. An RStudio project should now open up, which will allow you to start working on your homework assignment. You will probably see a blank console screen. However, in RStudio you should also see a list of all of the files available. Click on whatever file you want to edit (probably the .Rmd file) and edit away. If you save and close RStudio and want to go back to editing your project, open up RStudio, then go to File -> Open Project. Navigate to the project directory and double click on the .Rproj file.
 
 If you're not working with RStudio, you can do this in the shell. Navigate inside of your `homeworks` directory and then type `git clone repository-link` where `repository link` should be replaced with the link you copied to your clipboard in step 3. You now have the files, but note that this is not an R project, which means you will have to do all of your committing and pushing via the command line. This is fine, but only if you feel comfortable with it.
 
 Note that if you received an error in the above steps, you may have to clone with HTTPS instead of SSH. You can do this by again clicking on the "Clone or Download" button in the repository page, then clicking "Use HTTPS" in the top right of the pop-up box. Now copy the link and repeat this step.
 
-Here is a visualization of cloning an assignment onto your computer through R Studio on a Mac:
+Here is a visualization of cloning an assignment onto your computer through RStudio on a Mac:
 
 ![Alt Text](http://g.recordit.co/nKeMWFh4vS.gif)
 
 5.  After you make changes to the homework assignment, commit them. What are commits you ask? Commits are essentially taking a snapshot of your projects. For example, if I make changes to a code so that it prints "Hello world", and then commit them with an informative message, I can look at the history of my commits and view the code that I wrote at that time. If I made some more changes to the function that resulted in an error, I could go back to the commit where the code was originally working. This prevents you from creating several versions of your homework (homework-v1, homework-v2, ...) or from trying to remember what your code originally looked like.
 
-You can make commits using the GIT toolbar in RStudio (in RStudio make sure the toolbar is visible by doing View -> Show Toolbar). I have made a video on how to do this here (available under resources--How to clone, edit, and push homework assignments with GitHub Classroom), and you can read how to do  this in RStudio in more detail here: http://r-pkgs.had.co.nz/git.html#git-init.  Click the Commit button in the GIT toolbar dropdown menu. Check the files that you want to commit, enter your commit message, then hit Commit. Here is also a short GIF showing how to do this:
+You can make commits using the GIT toolbar in RStudio (in RStudio make sure the toolbar is visible by doing View -> Show Toolbar). I have made a video on how to do this here (available under resources--How to clone, edit, and push homework assignments with GitHub Classroom), and you can read how to do  this in RStudio in more detail at http://r-pkgs.had.co.nz/git.html#git-init.  Click the Commit button in the Git toolbar dropdown menu. Check the files that you want to commit, enter your commit message, then hit Commit. Here is also a short GIF showing how to do this:
 
 ![Alt Text](http://g.recordit.co/96UWQ9Avy2.gif)
 
@@ -111,7 +110,7 @@ Again, you can also do this in the shell. Simply navigate inside of your homewor
 
 ### Obtaining and pulling a shared repository
 
-Your classroom may have a repository where everyone in the class has access to it, such as a class materials repository (if you're in my class, we will have this). This repository will probably be updated throughout the class, and it will be useful to constantly have the most updated materials on your local computer. You can do this by first cloning the repository, and then pulling in changes. Here are the steps.
+Your classroom may have a repository where everyone in the class has access to it, such as a class materials repository. This repository will probably be updated throughout the class, and it will be useful to constantly have the most updated materials on your local computer. You can do this by first cloning the repository, and then pulling in changes. Here are the steps.
 
 1. Clone the repository via command line. Read through step 1 in the previous section if you want a refresher about navigating with the command line. Remember, Mac users should use Terminal, and Windows users should use Git Bash. Go into your class directory--in step 1, this would be the advanced-biostatistics-lab-fall-2017 directory.
 
