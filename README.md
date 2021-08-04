@@ -3,7 +3,7 @@
 This is a guide for students to setup Git and GitHub for use with GitHub Classroom. We use RStudio in our class, so we will give instructions on how to use RStudio to setup Git locally. 
 <!-- However, this is not necessary. -->
 
-**MCW Note:** These instructions were originally generated Jacob Fiksel (@jfiksel), so many of the images and examples will refer to his course. I've made some minor changes, but for the most part following these instructions will get you setup with GitHub and RStudio for use in our ODU CS 625 course. Mainly where you see *advanced-biostatistics-lab-fall-2017*, just replace that with *cs625-fall-2020*.
+**MCW Note:** These instructions were originally generated Jacob Fiksel (@jfiksel), so many of the images and examples will refer to his course. I've made some minor changes, but for the most part following these instructions will get you setup with GitHub and RStudio for use in our ODU CS 625 course. Mainly where you see *advanced-biostatistics-lab-fall-2017*, just replace that with *cs625-fall-2021*.
 
 ### Steps for getting setup with GitHub
 1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, weiglemc)
@@ -38,7 +38,7 @@ Below we make a repository and copy the link so that we can get the repository o
 
 ### Steps for downloading and editing assignments from GitHub Classroom
 
-1. Have a folder specifically for your class (call it something like cs625-fall-2020). Within this folder, I would recommend a folder  homework. 
+1. Have a folder specifically for your class (call it something like cs625-fall-2021). Within this folder, I would recommend a folder  homework. 
 
 Note you can do this as you normally would with pointing and clicking, but you can also use the shell! This is good practice if you want to use Git outside of the class, as you normally have to use the shell to interact with Git. Sean Kross has a great guide for using the shell at http://seankross.com/the-unix-workbench/. However, I'll show you the basic steps you need.
 
